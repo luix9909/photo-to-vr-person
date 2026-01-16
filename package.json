@@ -1,0 +1,31 @@
+{
+  "name": "photo-to-vr-person",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.162.0",
+    "@react-three/fiber": "^8.15.24",
+    "@react-three/drei": "^9.99.7",
+    "tensorflow": "^2.4.0",
+    "@tensorflow/tfjs": "^4.19.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.19.0",
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "lil-gui": "^0.19.0",
+    "styled-components": "^6.1.8",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.8"
+  }
+}
